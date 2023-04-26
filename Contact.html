@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/background.png);
+            min-height: 50vh;
+            width: 100%;
+            background-position: center;
+            position: relative;
+        }
+
+        nav {
+            display: flex;
+            padding: 2% 6%;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav img {
+            width: 150px;
+        }
+
+        .nav-bar {
+            flex: 1;
+            text-align: right;
+        }
+
+        .nav-bar ul li {
+
+            display: inline-block;
+            list-style: none;
+            padding: 8px 12px;
+            position: relative;
+            text-decoration: none;
+        }
+
+        .nav-bar ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .nav-bar ul li::after {
+            content: '';
+            width: 0%;
+            height: 2px;
+            background: #f44336;
+            display: block;
+            margin: auto;
+            transition: 2s;
+        }
+
+        .nav-bar ul li:hover::after {
+            width: 100%;
+        }
+
+
+        .Blog {
+            color: rgba(255, 255, 255, 0.966);
+            font-size: 25px;
+            margin-top: 100px;
+            text-align: center;
+            text-transform: capitalize;
+
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 50px;
+            color: #757171a0;
+        }
+
+
+         iframe {
+            margin: 50px;
+            position: relative;
+            left: 20%;
+        }
+
+        .icons {
+            margin: 100px;
+            position: relative;
+            left: 100px;
+        }
+
+        .icons svg {
+            margin: 50px;
+            display: block;
+        }
+
+        p {
+            margin-top: -285px;
+            margin-left: 100px;
+        }
+
+        .icon-text2 div {
+            padding-left: 110px;
+            padding-top: 36px;
+            color: #777;
+        }
+
+        .icon-text3 section {
+            padding-top: 38px;
+            padding-left: 110px;
+            color: #777;
+            line-height: 20px;
+        }
+
+        .form-col {
+            padding-left: 50%;
+            margin-top: -225px;
+            /* border: 1px solid;
+            width:500px;
+            height:40vh; */
+        }
+
+        .form-col form input {
+            width: 400px;
+
+        }
+
+        .form input {
+            padding: 10px;
+        }
+
+        .form-2 input {
+            width: 400px;
+
+            padding: 10px 10px 100px 10px;
+        }
+
+        .button-1 {
+            padding-top: 30px;
+            margin-left: 20px;
+
+        }
+
+        .button-1 a {
+            font-size: 15px;
+            display: inline-block;
+            text-decoration: none;
+            color: rgb(227, 82, 65);
+            padding: 10px 20px 10px 20px;
+            background: transparent;
+            border: 1px solid;
+            cursor: pointer;
+        }
+
+        .footer-0 {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 8%;
+            /* background-image: linear-gradient(rgba(125, 88, 125, 0.374), rgba(64, 80, 142, 0.438)); */
+            padding-top: 60px;
+            padding-bottom: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f5f7dc;
+        }
+
+        .CONTACT-icon-1 {
+            list-style-type: none;
+        }
+
+        .CONTACT-icon-1 div {
+            padding-left: 50px;
+            margin-top: -40px;
+            line-height: 20px;
+        }
+
+        .CONTACT-icon-1 svg {
+            margin-top: 10px;
+        }
+
+        .footer-icon-0 {
+            display: flex;
+            position: absolute;
+            left: 65px;
+            margin-top: -120px;
+        }
+
+        .footer-icon-0 svg {
+            padding: 20px;
+        }
+    </style>
+
+
+
+
+
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="nishant.html"><img src="images/logo.png"></a>
+            <div class="nav-bar">
+                <ul>
+
+                    <li><a href="nishant.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="coures.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="Blog">
+            <h2>Contact us</h2>
+        </div>
+    </section>
+
+
+    <div class="icons">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home-2" width="44" height="44"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <polyline points="5 12 3 12 12 3 21 12 19 12" />
+            <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+            <rect x="10" y="12" width="4" height="4" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="44" height="44"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+                d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-gmail" width="44" height="44"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M16 20h3a1 1 0 0 0 1 -1v-14a1 1 0 0 0 -1 -1h-3v16z" />
+            <path d="M5 20h3v-16h-3a1 1 0 0 0 -1 1v14a1 1 0 0 0 1 1z" />
+            <path d="M16 4l-4 4l-4 -4" />
+            <path d="M4 6.5l8 7.5l8 -7.5" />
+        </svg>
+        <div class="icon-text">
+            <p>XYZ ROAD,ABC BUILDING <br>pune,maharashtra.</p>
+        </div>
+        <div class="icon-text2">
+            <div>+917896584502 <br> monday to saturday 10am to 6pm</div> <br>
+        </div>
+        <div class="icon-text3">
+            <section>world's university123@gmail.com <br> Email Us Your query</section>
+        </div>
+
+        <section class="form-col">
+
+            <div class="form">
+                <form action="">
+                    <input type="text" required placeholder="Enter Name">
+                </form><br>
+            </div>
+            <div class="form">
+                <form action="">
+                    <input type="text" required placeholder="Enter Email">
+                </form><br>
+            </div>
+            <div class="form">
+                <form action="">
+                    <input type="text" required placeholder=" Your Subject">
+                </form><br>
+            </div>
+            <div class="form-2">
+                <form action="">
+                    <input type="text" required placeholder="Message">
+                </form>
+            </div>
+
+            <div class="button-1">
+                <a href="submit">Send Message</a>
+            </div>
+
+        </section>
+
+    </div>
+
+    <div class="maps">
+        <h1> location map</h1>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60477.137525612394!2d73.8138365751639!3d18.672022504053313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c800505bd8df%3A0xc5c371b50033df50!2sMoshi%2C%20Pimpri-Chinchwad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1679332899577!5m2!1sen!2sin"
+            width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+    <section class="footer-0">
+        <div class="Footer-col">
+            <h2>Contact</h2><br>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. In inventore ,<br> doloremque, repellendus sed
+                delectus vitae similique numquam <br> quis corporis eveniet laudantium molestiae corrupti ipsum
+                dignissimos lo<br> Laudantium earum repellat, nulla quos quia voluptatem saepe necessitatibus <br>
+                veniam alias, omnis impedit a suscipit iste inventore.
+            </div>
+        </div>
+        </div>
+        <div class="quick link">
+            <h2>Quick Links</h2><br>
+            <div class="puick-col">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Coures</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </div>
+        </div>
+        <div class="CONTACT-icon-1">
+            <h2>Contact Us</h2><br>
+            <li>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44"
+                    height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                <div>XYZ ROAD,ABC BUILDING <br>pune,maharashtra.</div> <br>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="44"
+                    height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                        d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                </svg>
+                <div>+917896584502<br>monday to saturday 10am to 6pm</div> <br>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-gmail" width="44"
+                    height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M16 20h3a1 1 0 0 0 1 -1v-14a1 1 0 0 0 -1 -1h-3v16z" />
+                    <path d="M5 20h3v-16h-3a1 1 0 0 0 -1 1v14a1 1 0 0 0 1 1z" />
+                    <path d="M16 4l-4 4l-4 -4" />
+                    <path d="M4 6.5l8 7.5l8 -7.5" />
+                </svg>
+                <div>world's university123@gmail.com</div>
+            </li>
+        </div>
+    </section>
+    <div class="footer-icon-0">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="35"
+            height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+        </svg> <br> <br>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44"
+            height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="4" y="4" width="16" height="16" rx="4" />
+            <circle cx="12" cy="12" r="3" />
+            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+        </svg> <br> <br>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="44"
+            height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="4" y="4" width="16" height="16" rx="2" />
+            <line x1="8" y1="11" x2="8" y2="16" />
+            <line x1="8" y1="8" x2="8" y2="8.01" />
+            <line x1="12" y1="16" x2="12" y2="11" />
+            <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+        </svg> <br> <br>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="44"
+            height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="3" y="5" width="18" height="14" rx="4" />
+            <path d="M10 9l5 3l-5 3z" />
+        </svg>
+    </div>
+
+
+</body>
+
+</html>

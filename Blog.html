@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOLG</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/background.png);
+            min-height: 50vh;
+            width: 100%;
+            background-position: center;
+            position: relative;
+        }
+
+        nav {
+            display: flex;
+            padding: 2% 6%;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav img {
+            width: 150px;
+        }
+
+        .nav-bar {
+            flex: 1;
+            text-align: right;
+        }
+
+        .nav-bar ul li {
+
+            display: inline-block;
+            list-style: none;
+            padding: 8px 12px;
+            position: relative;
+            text-decoration: none;
+        }
+
+        .nav-bar ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .nav-bar ul li::after {
+            content: '';
+            width: 0%;
+            height: 2px;
+            background: #f44336;
+            display: block;
+            margin: auto;
+            transition: 2s;
+        }
+
+        .nav-bar ul li:hover::after {
+            width: 100%;
+        }
+
+        .Blog {
+            color: rgba(255, 255, 255, 0.966);
+            font-size: 25px;
+            margin-top: 100px;
+            text-align: center;
+            text-transform: capitalize;
+        }
+
+        .post {
+
+            margin-top: 100px;
+            margin-left: 100px;
+            padding-bottom: 50px;
+        }
+
+        img {
+            width: 55%;
+            border-radius: 10px;
+        }
+
+        .list-col {
+            float: right;
+            /* border: 1px solid #df3e33f7; */
+            width: 30%;
+            height: 60%;
+            line-height: 40px;
+            margin-right: 100px;
+            margin-top: 40px;
+        }
+
+        .list-col h2 {
+            text-align: center;
+            background: #f44336;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+        }
+
+        .list-col li {
+            list-style-type: none;
+            color: #777;
+            display: flex;
+        }
+
+        .list-col ul {
+            float: right;
+            margin-top: -275px;
+        }
+
+        .blog-col {
+            margin-top: 30px;
+            /* border: 1px solid; */
+            width: 50%;
+            height: 85vh;
+        }
+
+        .blog-col h3 {
+            padding-top: 20px;
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #2b2a2ae9;
+        }
+
+        .blog-col p {
+            text-align: justify;
+            color: #777;
+        }
+
+        .form-col {
+            margin-top: 15%;
+            border: 1px solid;
+            width: 50%;
+            height: 60vh;
+
+        }
+
+        .form-col p {
+            margin-top: 10px;
+            margin-left: 10px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .form-col form input {
+            width: 90%;
+            background: rgba(189, 188, 188, 0.584);
+        }
+
+        .form-1 input {
+            padding: 10px;
+            border: none;
+            margin-left: 20px;
+        }
+
+        .form-2 input {
+            padding: 10px;
+            border: none;
+            margin-left: 20px;
+        }
+
+        .form-3 input {
+            padding: 10px 10px 70px 10px;
+            border: none;
+            margin-left: 20px;
+
+        }
+
+        .button-blog {
+            margin: 40px;
+        }
+
+        .button-blog a {
+            font-size: 15px;
+            display: inline-block;
+            text-decoration: none;
+            color: rgb(227, 82, 65);
+            border: 1px solid #ea4242;
+            padding: 12px 34px;
+            background: transparent;
+            cursor: pointer;
+        }
+
+        .footer-3 {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 5%;
+            /* background-image:linear-gradient(rgba(125, 88, 125, 0.374), rgba(64, 80, 142, 0.438)); */
+            padding-top: 60px;
+            padding-bottom: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f5f7dc;
+        }
+
+        .Footer-col p {
+            color: #323131;
+        }
+
+        .CONTACT-icon p {
+            color: #323131;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="nishant.html"><img src="images/logo.png"></a>
+            <div class="nav-bar">
+                <ul>
+
+                    <li><a href="nishant.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="coures.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="Blog">
+            <h2>Our Certificate & online pograms for 2023</h2>
+        </div>
+    </section>
+
+    <section class="post">
+        <img
+            src="https://media.istockphoto.com/id/1263374465/photo/graduation-congratulations-the-graduates-stand-in-line-while-waiting-for-awarding-degree.jpg?s=612x612&w=0&k=20&c=yhAtRVFS57QddoyX5q7MbIGnGcnQpyINrB-bzzM38xA=">
+        <div class="list-col">
+            <h2> post categories</h2> <br>
+            <li>business analytics </li>
+            <li>data science </li>
+            <li>machine learning</li>
+            <li>computer science</li>
+            <li>auotcad</li>
+            <li>journalism </li>
+            <li>commerce </li>
+            <ul>
+                <li>21</li>
+                <li>28</li>
+                <li>15</li>
+                <li>34</li>
+                <li>42</li>
+                <li>22</li>
+                <li>20</li>
+            </ul>
+        </div>
+
+        <div class="blog-col">
+            <h3>Our Certificate & Online Pograms For 2023</h3><br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit molestias, ipsum, est omnis placeat
+                nemo inventore accusantium sequi ullam, eaque consequatur debitis pariatur sed nihil sapiente
+                repudiandae doloribus saepe ducimus dignissimos. Ut culpa non illo aperiam, odio consequatur voluptas,
+                animi similique temporibus quod tempora molestias illum adipisci saepe! Incidunt, vero.</p><br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam ducimus aut suscipit sint odio
+                voluptates, voluptatibus reprehenderit laudantium mollitia quas, optio accusantium numquam non magni
+                esse fugit quo rerum ea in porro quibusdam nisi veniam obcaecati voluptate. Reprehenderit ratione alias
+                illum! Similique sit repellat itaque cupiditate labore ea consectetur architecto dolore sed maxime nihil
+                numquam eos officiis harum accusamus, saepe laudantium eveniet quod ratione at voluptate temporibus
+                nobis sint possimus. Nisi dignissimos voluptatibus mollitia maiores voluptatum! Corporis consequatur id,
+                rem laborum magni sunt est quaerat nisi quae at neque voluptate soluta facere, laudantium ipsum quod
+                esse molestias aperiam earum atque.</p><br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam ducimus aut suscipit sint odio
+                voluptates, voluptatibus reprehenderit laudantium mollitia quas, optio accusantium numquam non magni
+                esse fugit quo rerum ea in porro quibusdam nisi veniam obcaecati voluptate. Reprehenderit ratione alias
+                illum! Similique sit repellat itaque cupiditate labore ea consectetur architecto dolore sed maxime nihil
+                numquam eos officiis harum accusamus, saepe laudantium eveniet quod ratione at voluptate temporibus
+                nobis sint possimus. Nisi dignissimos voluptatibus mollitia maiores voluptatum! Corporis consequatur id,
+                rem laborum magni sunt est quaerat nisi quae at neque voluptate soluta facere, laudantium ipsum quod
+                esse molestias aperiam earum atque.</p><br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit molestias, ipsum, est omnis placeat
+                nemo inventore accusantium sequi ullam, eaque consequatur debitis pariatur sed nihil sapiente
+                repudiandae doloribus saepe ducimus dignissimos. Ut culpa non illo aperiam, odio consequatur voluptas,
+                animi similique temporibus quod tempora molestias illum adipisci saepe! Incidunt, vero.</p><br>
+        </div>
+        <section class="form-col">
+            <p>Leave a Comment</p><br>
+            <div class="form-1">
+                <form action="">
+                    <input type="text" required placeholder="Enter Name">
+                </form><br>
+            </div>
+            <div class="form-2">
+                <form action="">
+                    <input type="text" required placeholder="Enter Email">
+                </form><br>
+            </div>
+            <div class="form-3">
+                <form action="">
+                    <input type="text" required placeholder="Your Comment">
+                </form>
+            </div>
+
+            <div class="button-blog">
+                <a href="submit">Post Comment</a>
+            </div>
+
+        </section>
+
+    </section>
+
+
+    <section class="footer-3">
+        <div class="Footer-col">
+            <h2>Blog</h2><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In inventore ,<br> doloremque, repellendus sed
+                delectus vitae similique numquam <br> quis corporis eveniet laudantium molestiae corrupti ipsum
+                dignissimos lo<br> Laudantium earum repellat, nulla quos quia voluptatem saepe necessitatibus <br>
+                veniam alias, omnis impedit a suscipit iste inventore.
+            </p>
+        </div>
+        </div>
+        <div class="quick link">
+            <h2>Quick Links</h2><br>
+            <div class="puick-col">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Coures</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </div>
+        </div>
+        <div class="CONTACT-icon">
+            <h2>Contact Us</h2><br>
+            <li>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44"
+                    height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                <p>XYZ ROAD,ABC BUILDING <br>pune,maharashtra.</p> <br>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="44"
+                    height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                        d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                </svg>
+                <p>+917896584502<br>monday to saturday 10am to 6pm</p> <br>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-gmail" width="44"
+                    height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M16 20h3a1 1 0 0 0 1 -1v-14a1 1 0 0 0 -1 -1h-3v16z" />
+                    <path d="M5 20h3v-16h-3a1 1 0 0 0 -1 1v14a1 1 0 0 0 1 1z" />
+                    <path d="M16 4l-4 4l-4 -4" />
+                    <path d="M4 6.5l8 7.5l8 -7.5" />
+                </svg>
+                <p>world's university123@gmail.com</p>
+            </li>
+        </div>
+    </section>
+    <div class="footer-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="35"
+            height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+        </svg> <br> <br>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44"
+            height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="4" y="4" width="16" height="16" rx="4" />
+            <circle cx="12" cy="12" r="3" />
+            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+        </svg> <br> <br>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="44"
+            height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="4" y="4" width="16" height="16" rx="2" />
+            <line x1="8" y1="11" x2="8" y2="16" />
+            <line x1="8" y1="8" x2="8" y2="8.01" />
+            <line x1="12" y1="16" x2="12" y2="11" />
+            <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+        </svg> <br> <br>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="44"
+            height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="3" y="5" width="18" height="14" rx="4" />
+            <path d="M10 9l5 3l-5 3z" />
+        </svg>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
